@@ -10,7 +10,7 @@ import SwiftUI
 struct ContentView: View {
     
     @Environment(\.dismissSearch) private var dismissSearch
-
+    
     @StateObject private var viewModel = ViewModel()
     
     @State private var searchText = ""
@@ -25,8 +25,11 @@ struct ContentView: View {
         NavigationView {
             if(viewModel.isLoading)
             {
-                Text("Retrieving Images of \(searchText) from Imgur!")
-                ProgressView()
+                VStack
+                {
+                    Text("Retrieving Images of \(searchText) from Imgur!")
+                    ProgressView()
+                }
             }
             else
             {
