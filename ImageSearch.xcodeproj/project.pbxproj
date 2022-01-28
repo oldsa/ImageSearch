@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C14FA94527A212A500E875C7 /* Image_SearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA94427A212A500E875C7 /* Image_SearchApp.swift */; };
+		C14FA94527A212A500E875C7 /* ImageSearchApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA94427A212A500E875C7 /* ImageSearchApp.swift */; };
 		C14FA94727A212A500E875C7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA94627A212A500E875C7 /* ContentView.swift */; };
 		C14FA94927A212A700E875C7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14FA94827A212A700E875C7 /* Assets.xcassets */; };
 		C14FA94C27A212A700E875C7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C14FA94B27A212A700E875C7 /* Preview Assets.xcassets */; };
-		C14FA95627A212A800E875C7 /* Image_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95527A212A800E875C7 /* Image_SearchTests.swift */; };
-		C14FA96027A212A800E875C7 /* Image_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95F27A212A800E875C7 /* Image_SearchUITests.swift */; };
-		C14FA96227A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */; };
+		C14FA95627A212A800E875C7 /* ImageSearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95527A212A800E875C7 /* ImageSearchTests.swift */; };
+		C14FA96027A212A800E875C7 /* ImageSearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95F27A212A800E875C7 /* ImageSearchUITests.swift */; };
+		C14FA96227A212A800E875C7 /* ImageSearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA96127A212A800E875C7 /* ImageSearchUITestsLaunchTests.swift */; };
 		C14FA96F27A212F100E875C7 /* ImgurService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA96E27A212F100E875C7 /* ImgurService.swift */; };
 		C14FA97127A337F300E875C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97027A337F300E875C7 /* ViewModel.swift */; };
 		C14FA97327A338FE00E875C7 /* ImgurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97227A338FE00E875C7 /* ImgurImage.swift */; };
@@ -40,16 +40,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		C14FA94127A212A500E875C7 /* Image Search.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Image Search.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14FA94427A212A500E875C7 /* Image_SearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchApp.swift; sourceTree = "<group>"; };
+		C14FA94127A212A500E875C7 /* ImageSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14FA94427A212A500E875C7 /* ImageSearchApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchApp.swift; sourceTree = "<group>"; };
 		C14FA94627A212A500E875C7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		C14FA94827A212A700E875C7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C14FA94B27A212A700E875C7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		C14FA95127A212A800E875C7 /* Image SearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image SearchTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14FA95527A212A800E875C7 /* Image_SearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchTests.swift; sourceTree = "<group>"; };
-		C14FA95B27A212A800E875C7 /* Image SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C14FA95F27A212A800E875C7 /* Image_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchUITests.swift; sourceTree = "<group>"; };
-		C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C14FA95127A212A800E875C7 /* ImageSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14FA95527A212A800E875C7 /* ImageSearchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchTests.swift; sourceTree = "<group>"; };
+		C14FA95B27A212A800E875C7 /* ImageSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C14FA95F27A212A800E875C7 /* ImageSearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchUITests.swift; sourceTree = "<group>"; };
+		C14FA96127A212A800E875C7 /* ImageSearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageSearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		C14FA96E27A212F100E875C7 /* ImgurService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurService.swift; sourceTree = "<group>"; };
 		C14FA97027A337F300E875C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		C14FA97227A338FE00E875C7 /* ImgurImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurImage.swift; sourceTree = "<group>"; };
@@ -90,8 +90,8 @@
 			children = (
 				C14FA98027A3711000E875C7 /* README.md */,
 				C14FA94327A212A500E875C7 /* Image Search */,
-				C14FA95427A212A800E875C7 /* Image SearchTests */,
-				C14FA95E27A212A800E875C7 /* Image SearchUITests */,
+				C14FA95427A212A800E875C7 /* ImageSearchTests */,
+				C14FA95E27A212A800E875C7 /* ImageSearchUITests */,
 				C14FA94227A212A500E875C7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -99,9 +99,9 @@
 		C14FA94227A212A500E875C7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				C14FA94127A212A500E875C7 /* Image Search.app */,
-				C14FA95127A212A800E875C7 /* Image SearchTests.xctest */,
-				C14FA95B27A212A800E875C7 /* Image SearchUITests.xctest */,
+				C14FA94127A212A500E875C7 /* ImageSearch.app */,
+				C14FA95127A212A800E875C7 /* ImageSearchTests.xctest */,
+				C14FA95B27A212A800E875C7 /* ImageSearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -113,7 +113,7 @@
 				C14FA97927A3548C00E875C7 /* Views */,
 				C14FA97027A337F300E875C7 /* ViewModel.swift */,
 				C14FA97827A353F300E875C7 /* Image-Search-Info.plist */,
-				C14FA94427A212A500E875C7 /* Image_SearchApp.swift */,
+				C14FA94427A212A500E875C7 /* ImageSearchApp.swift */,
 				C14FA94827A212A700E875C7 /* Assets.xcassets */,
 				C14FA94A27A212A700E875C7 /* Preview Content */,
 			);
@@ -128,21 +128,21 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		C14FA95427A212A800E875C7 /* Image SearchTests */ = {
+		C14FA95427A212A800E875C7 /* ImageSearchTests */ = {
 			isa = PBXGroup;
 			children = (
-				C14FA95527A212A800E875C7 /* Image_SearchTests.swift */,
+				C14FA95527A212A800E875C7 /* ImageSearchTests.swift */,
 			);
-			path = "Image SearchTests";
+			path = ImageSearchTests;
 			sourceTree = "<group>";
 		};
-		C14FA95E27A212A800E875C7 /* Image SearchUITests */ = {
+		C14FA95E27A212A800E875C7 /* ImageSearchUITests */ = {
 			isa = PBXGroup;
 			children = (
-				C14FA95F27A212A800E875C7 /* Image_SearchUITests.swift */,
-				C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */,
+				C14FA95F27A212A800E875C7 /* ImageSearchUITests.swift */,
+				C14FA96127A212A800E875C7 /* ImageSearchUITestsLaunchTests.swift */,
 			);
-			path = "Image SearchUITests";
+			path = ImageSearchUITests;
 			sourceTree = "<group>";
 		};
 		C14FA97927A3548C00E875C7 /* Views */ = {
@@ -168,9 +168,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		C14FA94027A212A500E875C7 /* Image Search */ = {
+		C14FA94027A212A500E875C7 /* ImageSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C14FA96527A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image Search" */;
+			buildConfigurationList = C14FA96527A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearch" */;
 			buildPhases = (
 				C14FA93D27A212A500E875C7 /* Sources */,
 				C14FA93E27A212A500E875C7 /* Frameworks */,
@@ -180,14 +180,14 @@
 			);
 			dependencies = (
 			);
-			name = "Image Search";
+			name = ImageSearch;
 			productName = "Image Search";
-			productReference = C14FA94127A212A500E875C7 /* Image Search.app */;
+			productReference = C14FA94127A212A500E875C7 /* ImageSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		C14FA95027A212A800E875C7 /* Image SearchTests */ = {
+		C14FA95027A212A800E875C7 /* ImageSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C14FA96827A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image SearchTests" */;
+			buildConfigurationList = C14FA96827A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearchTests" */;
 			buildPhases = (
 				C14FA94D27A212A800E875C7 /* Sources */,
 				C14FA94E27A212A800E875C7 /* Frameworks */,
@@ -198,14 +198,14 @@
 			dependencies = (
 				C14FA95327A212A800E875C7 /* PBXTargetDependency */,
 			);
-			name = "Image SearchTests";
+			name = ImageSearchTests;
 			productName = "Image SearchTests";
-			productReference = C14FA95127A212A800E875C7 /* Image SearchTests.xctest */;
+			productReference = C14FA95127A212A800E875C7 /* ImageSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		C14FA95A27A212A800E875C7 /* Image SearchUITests */ = {
+		C14FA95A27A212A800E875C7 /* ImageSearchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C14FA96B27A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image SearchUITests" */;
+			buildConfigurationList = C14FA96B27A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearchUITests" */;
 			buildPhases = (
 				C14FA95727A212A800E875C7 /* Sources */,
 				C14FA95827A212A800E875C7 /* Frameworks */,
@@ -216,9 +216,9 @@
 			dependencies = (
 				C14FA95D27A212A800E875C7 /* PBXTargetDependency */,
 			);
-			name = "Image SearchUITests";
+			name = ImageSearchUITests;
 			productName = "Image SearchUITests";
-			productReference = C14FA95B27A212A800E875C7 /* Image SearchUITests.xctest */;
+			productReference = C14FA95B27A212A800E875C7 /* ImageSearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -244,7 +244,7 @@
 					};
 				};
 			};
-			buildConfigurationList = C14FA93C27A212A500E875C7 /* Build configuration list for PBXProject "Image Search" */;
+			buildConfigurationList = C14FA93C27A212A500E875C7 /* Build configuration list for PBXProject "ImageSearch" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -257,9 +257,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C14FA94027A212A500E875C7 /* Image Search */,
-				C14FA95027A212A800E875C7 /* Image SearchTests */,
-				C14FA95A27A212A800E875C7 /* Image SearchUITests */,
+				C14FA94027A212A500E875C7 /* ImageSearch */,
+				C14FA95027A212A800E875C7 /* ImageSearchTests */,
+				C14FA95A27A212A800E875C7 /* ImageSearchUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -296,7 +296,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C14FA94727A212A500E875C7 /* ContentView.swift in Sources */,
-				C14FA94527A212A500E875C7 /* Image_SearchApp.swift in Sources */,
+				C14FA94527A212A500E875C7 /* ImageSearchApp.swift in Sources */,
 				C14FA97527A33B0700E875C7 /* ImgurPost.swift in Sources */,
 				C14FA97327A338FE00E875C7 /* ImgurImage.swift in Sources */,
 				C14FA97C27A355F700E875C7 /* DetailedImageView.swift in Sources */,
@@ -310,7 +310,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA95627A212A800E875C7 /* Image_SearchTests.swift in Sources */,
+				C14FA95627A212A800E875C7 /* ImageSearchTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -318,8 +318,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C14FA96227A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift in Sources */,
-				C14FA96027A212A800E875C7 /* Image_SearchUITests.swift in Sources */,
+				C14FA96227A212A800E875C7 /* ImageSearchUITestsLaunchTests.swift in Sources */,
+				C14FA96027A212A800E875C7 /* ImageSearchUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,12 +328,12 @@
 /* Begin PBXTargetDependency section */
 		C14FA95327A212A800E875C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C14FA94027A212A500E875C7 /* Image Search */;
+			target = C14FA94027A212A500E875C7 /* ImageSearch */;
 			targetProxy = C14FA95227A212A800E875C7 /* PBXContainerItemProxy */;
 		};
 		C14FA95D27A212A800E875C7 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = C14FA94027A212A500E875C7 /* Image Search */;
+			target = C14FA94027A212A500E875C7 /* ImageSearch */;
 			targetProxy = C14FA95C27A212A800E875C7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -531,7 +531,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Search.app/Image Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSearch.app/ImageSearch";
 			};
 			name = Debug;
 		};
@@ -551,7 +551,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Image Search.app/Image Search";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageSearch.app/ImageSearch";
 			};
 			name = Release;
 		};
@@ -594,7 +594,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		C14FA93C27A212A500E875C7 /* Build configuration list for PBXProject "Image Search" */ = {
+		C14FA93C27A212A500E875C7 /* Build configuration list for PBXProject "ImageSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14FA96327A212A800E875C7 /* Debug */,
@@ -603,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C14FA96527A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image Search" */ = {
+		C14FA96527A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14FA96627A212A800E875C7 /* Debug */,
@@ -612,7 +612,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C14FA96827A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image SearchTests" */ = {
+		C14FA96827A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14FA96927A212A800E875C7 /* Debug */,
@@ -621,7 +621,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C14FA96B27A212A800E875C7 /* Build configuration list for PBXNativeTarget "Image SearchUITests" */ = {
+		C14FA96B27A212A800E875C7 /* Build configuration list for PBXNativeTarget "ImageSearchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				C14FA96C27A212A800E875C7 /* Debug */,
