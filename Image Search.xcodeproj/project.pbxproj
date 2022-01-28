@@ -14,6 +14,12 @@
 		C14FA95627A212A800E875C7 /* Image_SearchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95527A212A800E875C7 /* Image_SearchTests.swift */; };
 		C14FA96027A212A800E875C7 /* Image_SearchUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA95F27A212A800E875C7 /* Image_SearchUITests.swift */; };
 		C14FA96227A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */; };
+		C14FA96F27A212F100E875C7 /* ImgurService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA96E27A212F100E875C7 /* ImgurService.swift */; };
+		C14FA97127A337F300E875C7 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97027A337F300E875C7 /* ViewModel.swift */; };
+		C14FA97327A338FE00E875C7 /* ImgurImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97227A338FE00E875C7 /* ImgurImage.swift */; };
+		C14FA97527A33B0700E875C7 /* ImgurPost.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97427A33B0700E875C7 /* ImgurPost.swift */; };
+		C14FA97727A34A0800E875C7 /* NiceImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97627A34A0800E875C7 /* NiceImageView.swift */; };
+		C14FA97C27A355F700E875C7 /* DetailedImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C14FA97B27A355F700E875C7 /* DetailedImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +50,14 @@
 		C14FA95B27A212A800E875C7 /* Image SearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Image SearchUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C14FA95F27A212A800E875C7 /* Image_SearchUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchUITests.swift; sourceTree = "<group>"; };
 		C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image_SearchUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C14FA96E27A212F100E875C7 /* ImgurService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurService.swift; sourceTree = "<group>"; };
+		C14FA97027A337F300E875C7 /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		C14FA97227A338FE00E875C7 /* ImgurImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurImage.swift; sourceTree = "<group>"; };
+		C14FA97427A33B0700E875C7 /* ImgurPost.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImgurPost.swift; sourceTree = "<group>"; };
+		C14FA97627A34A0800E875C7 /* NiceImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiceImageView.swift; sourceTree = "<group>"; };
+		C14FA97827A353F300E875C7 /* Image-Search-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "Image-Search-Info.plist"; sourceTree = SOURCE_ROOT; };
+		C14FA97B27A355F700E875C7 /* DetailedImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailedImageView.swift; sourceTree = "<group>"; };
+		C14FA98027A3711000E875C7 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +88,7 @@
 		C14FA93827A212A500E875C7 = {
 			isa = PBXGroup;
 			children = (
+				C14FA98027A3711000E875C7 /* README.md */,
 				C14FA94327A212A500E875C7 /* Image Search */,
 				C14FA95427A212A800E875C7 /* Image SearchTests */,
 				C14FA95E27A212A800E875C7 /* Image SearchUITests */,
@@ -94,8 +109,11 @@
 		C14FA94327A212A500E875C7 /* Image Search */ = {
 			isa = PBXGroup;
 			children = (
+				C14FA97A27A354A400E875C7 /* Model */,
+				C14FA97927A3548C00E875C7 /* Views */,
+				C14FA97027A337F300E875C7 /* ViewModel.swift */,
+				C14FA97827A353F300E875C7 /* Image-Search-Info.plist */,
 				C14FA94427A212A500E875C7 /* Image_SearchApp.swift */,
-				C14FA94627A212A500E875C7 /* ContentView.swift */,
 				C14FA94827A212A700E875C7 /* Assets.xcassets */,
 				C14FA94A27A212A700E875C7 /* Preview Content */,
 			);
@@ -125,6 +143,26 @@
 				C14FA96127A212A800E875C7 /* Image_SearchUITestsLaunchTests.swift */,
 			);
 			path = "Image SearchUITests";
+			sourceTree = "<group>";
+		};
+		C14FA97927A3548C00E875C7 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C14FA97627A34A0800E875C7 /* NiceImageView.swift */,
+				C14FA94627A212A500E875C7 /* ContentView.swift */,
+				C14FA97B27A355F700E875C7 /* DetailedImageView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		C14FA97A27A354A400E875C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C14FA96E27A212F100E875C7 /* ImgurService.swift */,
+				C14FA97427A33B0700E875C7 /* ImgurPost.swift */,
+				C14FA97227A338FE00E875C7 /* ImgurImage.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,6 +297,12 @@
 			files = (
 				C14FA94727A212A500E875C7 /* ContentView.swift in Sources */,
 				C14FA94527A212A500E875C7 /* Image_SearchApp.swift in Sources */,
+				C14FA97527A33B0700E875C7 /* ImgurPost.swift in Sources */,
+				C14FA97327A338FE00E875C7 /* ImgurImage.swift in Sources */,
+				C14FA97C27A355F700E875C7 /* DetailedImageView.swift in Sources */,
+				C14FA97127A337F300E875C7 /* ViewModel.swift in Sources */,
+				C14FA96F27A212F100E875C7 /* ImgurService.swift in Sources */,
+				C14FA97727A34A0800E875C7 /* NiceImageView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -346,7 +390,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -401,7 +445,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -422,6 +466,7 @@
 				DEVELOPMENT_TEAM = Z5WYFGDJMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-Search-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -451,6 +496,7 @@
 				DEVELOPMENT_TEAM = Z5WYFGDJMB;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Image-Search-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
