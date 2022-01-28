@@ -8,11 +8,7 @@
 import SwiftUI
 
 struct ContentView: View {
-    
-    @Environment(\.dismissSearch) private var dismissSearch
-    
     @StateObject private var viewModel = ViewModel()
-    
     @State private var searchText = ""
     
     let columns = [
@@ -37,7 +33,7 @@ struct ContentView: View {
                     LazyVGrid(columns: columns) {
                         ForEach (viewModel.imageList) { imagePost in
                             NavigationLink(destination: {
-                                DetailedImageView(imageURL: imagePost.images?.first?.url ?? imagePost.url!, title: imagePost.title ?? "No title!", description: imagePost.description ?? "No Description!")
+                                DetailedImageView(imageURL: imagePost.images?.first?.url ?? imagePost.url!, title: imagePost.title, description: imagePost.description)
                             }, label: {
                                 NiceImageView(url: imagePost.images?.first?.url ?? imagePost.url!)
                                     .frame(height: 100)
@@ -52,6 +48,9 @@ struct ContentView: View {
         .searchable(text:$searchText)
         .onSubmit(of: .search) {
             viewModel.submitSearch(search: searchText)
+        }
+        .alert("Error: \(viewModel.errorMessage)", isPresented: $viewModel.showError) {
+            Button("Ok", role: .cancel) {}
         }
     }
 }

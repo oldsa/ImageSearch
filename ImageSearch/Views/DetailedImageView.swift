@@ -7,16 +7,22 @@
 
 import SwiftUI
 
-struct DetailedImageView: View {
-    
+struct DetailedImageView: View { 
     var imageURL : URL
-    var title : String
-    var description : String
+    var title : String?
+    var description : String?
     
     var body: some View {
-        VStack {
-            Text(title)
-            Text(description)
+        VStack(alignment: .leading) {
+            if let title = title {
+                Text("Title: ").bold()
+                Text(title).padding(.bottom, 5)
+                
+            }
+            if let description = description {
+                Text("Description: ").bold()
+                Text(description)
+            }
             NiceImageView(url: imageURL)
         }
     }
