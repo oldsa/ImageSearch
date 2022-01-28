@@ -89,7 +89,7 @@
 			isa = PBXGroup;
 			children = (
 				C14FA98027A3711000E875C7 /* README.md */,
-				C14FA94327A212A500E875C7 /* Image Search */,
+				C14FA94327A212A500E875C7 /* ImageSearch */,
 				C14FA95427A212A800E875C7 /* ImageSearchTests */,
 				C14FA95E27A212A800E875C7 /* ImageSearchUITests */,
 				C14FA94227A212A500E875C7 /* Products */,
@@ -106,7 +106,7 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		C14FA94327A212A500E875C7 /* Image Search */ = {
+		C14FA94327A212A500E875C7 /* ImageSearch */ = {
 			isa = PBXGroup;
 			children = (
 				C14FA97A27A354A400E875C7 /* Model */,
@@ -117,7 +117,7 @@
 				C14FA94827A212A700E875C7 /* Assets.xcassets */,
 				C14FA94A27A212A700E875C7 /* Preview Content */,
 			);
-			path = "Image Search";
+			path = ImageSearch;
 			sourceTree = "<group>";
 		};
 		C14FA94A27A212A700E875C7 /* Preview Content */ = {
